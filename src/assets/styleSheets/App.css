@@ -1,0 +1,57 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 5s linear;
+  height: 20vmin;
+}
+
+.App-header {
+  background-color: white;
+  min-height: 35vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(7px + 2vmin);
+  color: black;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#form {
+  width: 900px;
+  margin: 0 auto;
+}
+
+#form-title {
+  color: green;
+  font-size: 20px;
+}
+
+#form-button {
+  float: left;
+  background-color: green
+}
+
+#pizza-list {
+  width: 900px;
+  margin: 60px auto;
+  border-style: solid;
+  border-radius: 5px;
+  border-width: 1px;
+  border-color: #BEBEBE;
+}
+
+#image {
+  width: 700px;
+  height: 250px;
+}

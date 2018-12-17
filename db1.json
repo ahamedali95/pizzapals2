@@ -1,0 +1,103 @@
+{
+  "pizzas": [
+    {
+      "id": 1,
+      "name": "Pickled Jalapeño Pizza",
+      "style": "American",
+      "creator": "Ahamed",
+      "URL": "https://www.bakedbyrachel.com/wp-content/uploads/2017/01/jalapenopopperpizza1_bakedbyrachel.jpg",
+      "ingredients": [
+        "Jalapeño",
+        "cheese"
+      ]
+    },
+    {
+      "name": "pineapple",
+      "style": "hawaiian",
+      "creator": "kathy",
+      "URL": "https://cdn.vox-cdn.com/thumbor/bS56G-o2BnoW4R7_UnPnx4ZoVDc=/0x0:2000x1333/1820x1213/filters:focal(840x507:1160x827):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/55188531/hawaiian_pizza_sh.0.jpg",
+      "ingredients": [
+        "tomato sauce",
+        "amla"
+      ],
+      "id": 2
+    },
+    {
+      "name": "pineapple",
+      "style": "hawaiian",
+      "creator": "kathy",
+      "URL": "https://cdn.vox-cdn.com/thumbor/bS56G-o2BnoW4R7_UnPnx4ZoVDc=/0x0:2000x1333/1820x1213/filters:focal(840x507:1160x827):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/55188531/hawaiian_pizza_sh.0.jpg",
+      "ingredients": [
+        "tomato sauce",
+        "amla"
+      ],
+      "id": 3
+    },
+    {
+      "name": "pineapple",
+      "style": "hawaiian",
+      "creator": "kathy",
+      "URL": "https://cdn.vox-cdn.com/thumbor/bS56G-o2BnoW4R7_UnPnx4ZoVDc=/0x0:2000x1333/1820x1213/filters:focal(840x507:1160x827):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/55188531/hawaiian_pizza_sh.0.jpg",
+      "ingredients": [
+        "tomato sauce",
+        "amla"
+      ],
+      "id": 4
+    },
+    {
+      "name": "pineapple",
+      "style": "hawaiian",
+      "creator": "kathy",
+      "URL": "https://cdn.vox-cdn.com/thumbor/bS56G-o2BnoW4R7_UnPnx4ZoVDc=/0x0:2000x1333/1820x1213/filters:focal(840x507:1160x827):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/55188531/hawaiian_pizza_sh.0.jpg",
+      "ingredients": [
+        "tomato sauce",
+        "amla"
+      ],
+      "id": 5
+    },
+    {
+      "name": "pineapple",
+      "style": "hawaiian",
+      "creator": "kathy",
+      "URL": "https://cdn.vox-cdn.com/thumbor/bS56G-o2BnoW4R7_UnPnx4ZoVDc=/0x0:2000x1333/1820x1213/filters:focal(840x507:1160x827):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/55188531/hawaiian_pizza_sh.0.jpg",
+      "ingredients": [
+        "tomato sauce",
+        "amla"
+      ],
+      "id": 6
+    },
+    {
+      "name": "",
+      "style": "fd",
+      "creator": "",
+      "URL": "",
+      "ingredients": [
+        "fsdff",
+        ""
+      ],
+      "id": 7
+    },
+    {
+      "name": "",
+      "style": "fd",
+      "creator": "",
+      "URL": "",
+      "ingredients": [
+        "fsdff",
+        ""
+      ],
+      "id": 8
+    },
+    {
+      "name": "",
+      "style": "",
+      "creator": "",
+      "URL": "",
+      "ingredients": [
+        "fsdfs",
+        ""
+      ],
+      "id": 9
+    }
+  ]
+}
