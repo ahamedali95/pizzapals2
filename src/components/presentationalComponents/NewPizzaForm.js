@@ -6,7 +6,7 @@ import { addPizza } from '../../actions/index.js';
 
 import { connect } from 'react-redux';
 
-class PizzaBuilderForm extends React.Component {
+class NewPizzaForm extends React.Component {
   constructor(props) {
     super(props);
 
@@ -85,4 +85,4 @@ const mapDispatchToProps = (dispatch) => {
   };
 }
 
-export default connect(null, mapDispatchToProps)(PizzaBuilderForm);
+export default connect(null, mapDispatchToProps)(NewPizzaForm);

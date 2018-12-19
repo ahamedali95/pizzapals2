@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react';
-import { Card, Icon, Image } from 'semantic-ui-react';
+import { Card, Icon, Image, Button } from 'semantic-ui-react';
 
 const Pizza = (props) => {
   console.log("props", props);
@@ -18,6 +18,9 @@ const Pizza = (props) => {
         </Card.Content>
         <Card.Content extra>
           {`Ingredients are: ${pizza.ingredients[0]}, ${pizza.ingredients[1]}`}
+        </Card.Content>
+        <Card.Content>
+          <Button id='edit-button' color='red'>Edit</Button>
         </Card.Content>
       </Card>
     </Fragment>
