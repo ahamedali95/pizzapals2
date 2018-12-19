@@ -17,7 +17,7 @@ class App extends Component {
   componentDidMount() {
     fetch('http://localhost:4000/pizzas')
       .then(response => response.json())
-        .then(data => this.props.setPizzas(data));
+        .then(data => this.props.setPizzas(data))
   }
 
   render() {
