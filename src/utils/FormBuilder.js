@@ -39,18 +39,20 @@ const FormBuilder = (WrappedComponent, request) => {
       const data = { name: this.state.name, style: this.state.style, creator: this.state.creator, URL: this.state.URL, ingredients: [this.state.ingredient1, this.state.ingredient2] };
 
       if(request === 'POST') {
-        fetch('http://localhost:4000/pizzas', {
-          method: 'POST',
-          headers: {
-            'Content-Type': 'application/json'
-          },
-          body: JSON.stringify(data),
-        })
-         .then(response => response.json())
-          .then(data => {
-            this.props.addPizza(data);
-            this.clearForm();
-          });
+        // fetch('http://localhost:4000/pizzas', {
+        //   method: 'POST',
+        //   headers: {
+        //     'Content-Type': 'application/json'
+        //   },
+        //   body: JSON.stringify(data),
+        // })
+        //  .then(response => response.json())
+        //   .then(data => {
+        //     this.props.addPizza(data);
+        //     this.clearForm();
+        //   });
+        this.props.addPizza(data);
+        this.clearForm();
       } else if ('PATCH') {
 
       }
